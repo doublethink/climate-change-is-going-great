@@ -70,7 +70,7 @@ const Header = forwardRef(function Header(
       // eslint-disable-next-line @next/next/no-img-element
       <img
         className="logo"
-        src={`${STORAGE_URL}/monkey_${imageSize}.webp`}
+        src={`https://pbs.twimg.com/media/FDogA52aIAAis-_?format=jpg&name=4096x4096`}
         alt="Illustration: A sad-looking Bored Ape Yacht Club NFT monkey looks at a world engulfed in flames."
       />,
       "logo-image-link"
@@ -103,20 +103,15 @@ const Header = forwardRef(function Header(
         {windowWidth !== "sm" && renderImage()}
         <div className="header-content">
           <h1 ref={componentRef} tabIndex={-1}>
-            {renderMainPageLink(<span>Web3 is going just great</span>)}
+            {renderMainPageLink(<span>Climate change is going just great</span>)}
           </h1>
           <p className="subtitle">
-            ...and is definitely not an enormous grift that's pouring lighter
-            fluid on our already smoldering planet.
+            ...and Proof of Work is helping us acheive our goals. We recognise these mining heroes.
           </p>
           <p>
             Follow updates on{" "}
-            <ExternalLink href="https://twitter.com/web3isgreat">
+            <ExternalLink href="https://twitter.com/ccisgreat">
               Twitter
-            </ExternalLink>
-            ,{" "}
-            <ExternalLink href="https://indieweb.social/@web3isgreat" rel="me">
-              Mastodon
             </ExternalLink>
             , or with{" "}
             <ExternalLink href="https://web3isgoinggreat.com/feed.xml">
@@ -124,15 +119,15 @@ const Header = forwardRef(function Header(
             </ExternalLink>
             <i className="fas fa-rss" aria-hidden={true} />
             <br />
-            <span>Created by Molly White </span>
+            <span>Created by Stephen Morgan </span>
             <span style={{ display: "inline-block" }}>
               <span aria-hidden={true}>(</span>
-              <ExternalLink href="https://twitter.com/molly0xFFF">
+              <ExternalLink href="https://twitter.com/doublethink_sec">
                 {renderIconLinkContents("fa-brands fa-twitter", "Twitter")}
               </ExternalLink>
               <span aria-hidden={true}>, </span>
-              <ExternalLink href="https://www.mollywhite.net/">
-                {renderIconLinkContents("fas fa-link", "Website")}
+              <ExternalLink href="https://github.com/doublethink">
+                {renderIconLinkContents("fa-brands fa-github", "GitHub")}
               </ExternalLink>
               <span aria-hidden={true}>)</span>
             </span>{" "}
