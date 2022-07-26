@@ -70,7 +70,7 @@ const Header = forwardRef(function Header(
       // eslint-disable-next-line @next/next/no-img-element
       <img
         className="logo"
-        src={`https://pbs.twimg.com/media/FDogA52aIAAis-_?format=jpg&name=4096x4096`}
+        src={`${STORAGE_URL}/monkey_${imageSize}.webp`}
         alt="Illustration: A sad-looking Bored Ape Yacht Club NFT monkey looks at a world engulfed in flames."
       />,
       "logo-image-link"
