@@ -142,7 +142,7 @@ export default function Timeline({
 
   const renderNoJs = () => {
     if (!isBrowserRendering) {
-      const cursor = data.pages[0].entries[data.pages[0].entries.length - 1].id;
+      const cursor = 1;
       return (
         <p id="noscript">
           No JavaScript? That's cool too! Check out the{" "}

@@ -5,7 +5,7 @@ import "firebase/auth";
 
 // Initialize Firebase
 const app = initializeApp({
-  apiKey: "AIzaSyDLAj91oJ3U_24VU2RW9511RKqYuf-sviQ",
+  apiKey: "AIzaSyDwPGfLRX4BWVB2A52t3deWJr9Mzy1eETU",
   authDomain: "climatechange-fae57.firebaseapp.com",
   databaseURL: "https://climatechange-fae57-default-rtdb.firebaseio.com",
   projectId: "climatechange-fae57",

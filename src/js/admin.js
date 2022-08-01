@@ -12,7 +12,7 @@ import {
 
 export const auth = getAuth();
 export const signIn = (password) =>
-  signInWithEmailAndPassword(auth, "molly.white5@gmail.com", password);
+  signInWithEmailAndPassword(auth, "stephen.morgan.crypto@gmail.com", password);
 
 export const signOut = () => fbSignOut(auth);
 
