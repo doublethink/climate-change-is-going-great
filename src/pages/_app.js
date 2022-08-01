@@ -23,7 +23,7 @@ function CustomApp({ Component, pageProps }) {
   return (
     <>
       <Head>
-        <title key="title">Web3 is going just great</title>
+        <title key="title">Climate change is going just great</title>
         <meta charSet="utf-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <meta
